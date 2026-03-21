@@ -2,18 +2,17 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: MSc Robotics, Systems, and Control @ <a href="https://ethz.ch/">ETH Zurich</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Zurich, Switzerland</p>
+    <p>jaerkim@student.ethz.ch</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -22,13 +21,11 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am an MSc student in Robotics, Systems, and Control at ETH Zurich, where I also work as a research assistant at the [Computational Robotics Lab](https://crl.ethz.ch/) and the [Robotic Systems Lab](https://rsl.ethz.ch/). My research focuses on humanoid and legged robot locomotion, with particular interest in reinforcement learning, whole-body control, sim-to-real transfer, and motion retargeting.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Previously, I completed my B.S. in Computer Science and Electrical & Electronic Engineering at KAIST (Summa Cum Laude), where I gained research experience in task and motion planning, program analysis, and unsupervised skill discovery for quadruped robots. I have also spent time as an exchange student at ETH Zurich and at UC Berkeley on a full scholarship through the KAIST Presidential Fellowship.
