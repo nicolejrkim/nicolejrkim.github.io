@@ -126,7 +126,7 @@ cv:
         summary: 3D Vision course project at ETH Zurich (Spring 2026) — 6-DoF object pose estimation from a single egocentric RGB video stream, without a depth sensor.
         highlights:
           - Tracked object pose through a full manipulation sequence (grasping, carrying, dropping) by combining object segmentation, monocular depth estimation, in-hand tracking with gripper kinematics constraints, and post-release 6D refinement.
-          - Generated simulation-ready trajectories for replay in Isaac Sim.
+          - Implemented the dynamics-consistent trajectory replay and the residual RL pipeline for recovering a dynamically feasible rollout, jointly refining robot and object trajectories through simulated contact dynamics in Isaac Sim.
 
       - name: Visual Odometry
         start_date: 2025-09-15
