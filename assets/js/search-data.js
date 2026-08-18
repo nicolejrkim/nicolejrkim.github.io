@@ -400,6 +400,9 @@ ninja.data = [{
           section: "News",},{id: "news-started-a-semester-project-at-the-eth-robotic-systems-lab-on-whole-body-tactile-sensing-for-rl-based-dynamic-locomotion-on-the-anymal-quadruped-robot-robot",
           title: 'Started a semester project at the ETH Robotic Systems Lab on whole-body tactile...',
           description: "",
+          section: "News",},{id: "news-our-team-38-of-freedom-won-the-robot-competition-at-the-2026-eth-robotics-summer-school-trophy",
+          title: 'Our team 38° of Freedom won the robot competition at the 2026 ETH...',
+          description: "",
           section: "News",},{id: "projects-dcase-2020-task-2",
           title: 'DCASE 2020 Task 2',
           description: "Unsupervised anomalous machine sound detection for condition monitoring.",
@@ -412,7 +415,7 @@ ninja.data = [{
               window.location.href = "/projects/real2sim_6dpose/";
             },},{id: "projects-robotics-summer-school-autonomous-navigation",
           title: 'Robotics Summer School — Autonomous Navigation',
-          description: "Long-range navigation with FAR Planner on a quadruped robot, as part of team &quot;38° of Freedom&quot; at the Robotics Summer School, ETH Zurich (2026).",
+          description: "Winner of the robot competition at the 2026 ETH Robotics Summer School — long-range navigation with FAR Planner on a quadruped robot, as part of team &quot;38° of Freedom&quot;.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/robotics_summer_school/";
             },},{id: "projects-whole-body-tactile-representations-for-motion-control",
