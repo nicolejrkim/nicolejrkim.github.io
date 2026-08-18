@@ -1,14 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - nicolejrkim
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - nicolejrkim/va25_project
+  - nicolejrkim/ee488_DCASE2020-Task2
+  - 3dv-fs26-real2sim/RGBTrack-3DV-
