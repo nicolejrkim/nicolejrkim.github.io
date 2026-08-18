@@ -1,189 +1,206 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Jaeryeong Kim
+  label: M.S. Student in Robotics, Systems, and Control
+  email: jaerkim@student.ethz.ch
+  location: Zurich, Switzerland
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: Robotics M.S. student at ETH Zurich working on legged locomotion, whole-body control, and reinforcement learning for quadruped and humanoid robots.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: nicolejrkim
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: jaeryeong-kim
 
   sections:
     Education:
-      - institution: University of Zurich
+      - institution: ETH Zurich
         location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+        url: https://ethz.ch/
+        area: Robotics, Systems, and Control
+        studyType: M.S.
+        start_date: 2025-09-15
+        end_date: present
         highlights:
-          - Description 1.
-          - Description 2.
+          - Robotics and control systems (motion planning, whole-body control, legged locomotion, quadruped robots)
+          - Reinforcement learning and optimal control (deep RL, model predictive control, sampling-based MPC, MPPI)
+          - Machine perception and computer vision (SLAM, vision-language-action models)
+          - Physics-based simulation and deployment (MuJoCo, IsaacLab, ROS2, GPU-parallelized environments)
+          - Spatio-temporal motion retargeting and kino-dynamically feasible motion generation from keypoint trajectories
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: Korea Advanced Institute of Science and Technology (KAIST)
+        location: Daejeon, South Korea
+        url: https://www.kaist.ac.kr/
+        area: Computer Science & Electrical and Electronic Engineering
+        studyType: B.S.
+        start_date: 2020-03-02
+        end_date: 2025-08-29
+        score: Summa Cum Laude
         highlights:
-          - Description 1.
-          - Description 2.
+          - Computer science fundamentals (algorithms, data structures, operating systems, computer networks, math)
+          - Programming languages and formal methods (language specification, compiler design, automated test generation, engine bug detection)
+          - Artificial intelligence and machine learning (deep learning, computational learning theory, reinforcement learning)
+          - Robotics and planning (hierarchical MCTS, task and motion planning, long-horizon problem solving)
+          - Systems programming (Rust, Scala, OCaml, socket programming, TCP/IP implementation)
+          - Research experience in program analysis and robotic manipulation planning
+
+      - institution: ETH Zurich
+        location: Zurich, Switzerland
+        url: https://ethz.ch/
+        area: Department of Computer Science
+        studyType: Exchange Student
+        start_date: 2024
+        end_date: 2025
+        score: GPA 5.76/6.0
+        highlights:
+          - Robotics and control systems (legged locomotion, reinforcement learning, motion planning)
+          - Machine learning and probabilistic AI (machine perception, probabilistic artificial intelligence)
+          - Research in unsupervised skill discovery and diversified gait pattern generation for quadruped robots
+          - Semester project in deep reinforcement learning (grade 6.0/6.0)
+
+      - institution: UC Berkeley
+        location: Berkeley, CA, USA
+        url: https://www.berkeley.edu/
+        area: Summer Session
+        studyType: Visiting Student
+        start_date: 2022
+        end_date: 2022
+        highlights:
+          - Attended on a full scholarship awarded through the KAIST Presidential Fellowship (KPF)
+          - Coursework in Game Theory
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
-
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
+      - company: ETH Robotic Systems Lab
+        position: Semester Project
         location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+        start_date: 2026-03-09
+        end_date: present
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Conducting semester project on whole-body tactile sensing for reinforcement learning-based dynamic locomotion on the ANYmal quadruped robot.
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: ETH Computational Robotics Lab
+        position: University Research Assistant
+        location: Zurich, Switzerland
+        start_date: 2025-09-15
+        end_date: present
+        highlights:
+          - Research on spatio-temporal motion retargeting (STMR) and whole-body control for humanoids.
+          - Integrating sampling-based MPC and MPPI methods using GPU-parallelized physics simulation (MuJoCo) for kino-dynamically feasible motion generation from keypoint trajectories.
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: ETH Computational Robotics Lab
+        position: University Research Assistant
+        location: Zurich, Switzerland
+        start_date: 2024-02-14
+        end_date: 2025-02-14
+        summary: Diversifying gait patterns using unsupervised skill discovery, and RL-based multi-gait locomotion for an interactive media art exhibition.
+        highlights:
+          - Implemented unsupervised skill discovery methods with discrete latent variables (inspired by DIAYN & DISDAIN) and continuous latent variables (ASE, METRA) to encode skills into a latent space for control.
+          - Trained a policy that allows for controlling height, gait patterns, pitch angle, and feet width in quadruped locomotion.
+          - Developed and deployed a reinforcement learning-based locomotion controller producing expressive gait patterns, used live in the AATB artistic studio's exhibition.
+          - Gained experience with IsaacLab, Python, ROS2, and reinforcement learning.
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+      - company: KAIST Humanoid Generalization Lab
+        position: University Research Assistant
+        location: Seoul, South Korea
+        start_date: 2023-06-09
+        end_date: 2023-08-28
+        highlights:
+          - Designed a hierarchical MCTS algorithm that conducts MCTS search in hierarchy.
+          - Implemented the algorithm and applied it to a simple toy domain, a maze domain, and a task and motion planning domain.
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+      - company: KAIST Programming Language Research Group
+        position: University Research Assistant
+        location: Daejeon, South Korea
+        start_date: 2021-12-20
+        end_date: 2023-06-14
+        highlights:
+          - Conducted research on "JavaScript and Test262 improvements and engine bug detection using automatically generated test cases" as part of the Undergraduate Research Program (URP).
+          - Developed code to automatically test JavaScript engines with Test262 test cases using Scala and check whether failing cases are covered by the Feature Sensitivity Coverage standard in Test262.
+          - Gained experience with Rust, Scala, Java, and OCaml.
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+    Projects:
+      - name: Real-to-Sim 6-DoF Object Pose Estimation
+        start_date: 2026
+        end_date: 2026
+        url: https://hudela390.github.io/real2sim-6dpose/
+        summary: 3D Vision course project at ETH Zurich (Spring 2026) — 6-DoF object pose estimation from a single egocentric RGB video stream, without a depth sensor.
+        highlights:
+          - Tracked object pose through a full manipulation sequence (grasping, carrying, dropping) by combining object segmentation, monocular depth estimation, in-hand tracking with gripper kinematics constraints, and post-release 6D refinement.
+          - Generated simulation-ready trajectories for replay in Isaac Sim.
+
+      - name: Visual Odometry
+        start_date: 2025-09-15
+        end_date: 2026-01-05
+        url: https://github.com/nicolejrkim/va25_project
+        summary: Monocular visual odometry pipeline for real-time camera pose estimation.
+        highlights:
+          - Built a pipeline using KLT feature tracking, PnP-based localization, and landmark triangulation.
+          - Enhanced the baseline with Local Bundle Adjustment, ground plane scale correction using SAM3 segmentation, and Sim(3)-based loop detection and closure, evaluated on the KITTI dataset.
+
+      - name: DCASE 2020 Task 2
+        start_date: 2025-03-02
+        end_date: 2025-06-10
+        url: https://github.com/nicolejrkim/ee488_DCASE2020-Task2
+        summary: Anomalous machine sound detection with unsupervised learning for condition monitoring.
+        highlights:
+          - Implemented advanced architectures (e.g., NoisyArcMix, SpecNet) and applied feature normalization and model ensembling, improving AUC by 2.14%.
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Robotics & Control
+        icon: fa-solid fa-robot
+        keywords: "Sampling-Based MPC, Model Predictive Path Integral (MPPI), Robot Locomotion Control, Whole-Body Control, Motion Retargeting"
+
+      - name: Reinforcement Learning
+        icon: fa-solid fa-brain
+        keywords: "Deep Reinforcement Learning, Unsupervised Skill Discovery, Sim-to-Real Transfer"
+
+      - name: Simulation and Frameworks
+        icon: fa-solid fa-cubes
+        keywords: "NVIDIA Isaac Sim, Isaac Lab, MuJoCo, ROS2"
+
+      - name: Robot Hardware
+        icon: fa-solid fa-gears
+        keywords: "Unitree Go2, Unitree G1, ANYmal"
+
+      - name: Machine Learning & Computer Vision
+        icon: fa-solid fa-eye
+        keywords: "PyTorch, Anomaly Detection, Model Ensembling, Bayesian Optimization, Visual Odometry"
+
+      - name: Development
+        icon: fa-solid fa-code
+        keywords: "C++, C, C#, Python, Git, Linux"
+
+    Awards:
+      - title: Korea Presidential Science Scholarship
+        date: 2020-03-02
+        awarder: Korea Student Aid Foundation
+        summary: National merit-based scholarship awarded by the Korean government to top science and engineering undergraduates, covering full tuition.
+
+      - title: KAIST Presidential Fellowship (KPF)
+        date: 2020-03-02
+        awarder: Korea Advanced Institute of Science and Technology (KAIST)
+        summary: Prestigious institutional fellowship for top-performing KAIST students, including funded study abroad at UC Berkeley.
+
+      - title: Korea Foundation for Advanced Studies (KFAS) Scholarship
+        date: 2022-03-02
+        awarder: Korea Foundation for Advanced Studies (KFAS)
+        summary: Selective scholarship for high-achieving university students with strong research potential in science and technology.
+
+      - title: Hanseong Nobel Youngsoojae Scholarship
+        date: 2021-03-01
+        awarder: Hanseong Foundation
+        summary: Merit-based scholarship recognizing outstanding academic achievement during high school.
+
+      - title: College of Engineering's Dean's List
+        awarder: Korea Advanced Institute of Science and Technology (KAIST)
+
+      - title: Samsung HumanTech Paper Award (High School Division), Gold Prize
+        awarder: Samsung Electronics
+        summary: Gold Prize for research on a graph kernel algorithm for compound property prediction. Nationally recognized research competition organized by Samsung Electronics.
 
     Languages:
-      - name: German
+      - name: Korean
         summary: "Native speaker"
 
       - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+        summary: "Proficient (C1)"
