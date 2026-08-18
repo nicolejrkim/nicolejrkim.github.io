@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
         },{id: "nav-cv",
           title: "CV",
           description: "M.S. student in Robotics, Systems, and Control at ETH Zurich. A PDF version is available via the button below.",
@@ -417,6 +410,11 @@ ninja.data = [{
           description: "6-DoF object pose tracking from a single egocentric RGB video, generating simulation-ready trajectories for Isaac Sim. 3D Vision course project at ETH Zurich (Spring 2026).",
           section: "Projects",handler: () => {
               window.location.href = "/projects/real2sim_6dpose/";
+            },},{id: "projects-whole-body-tactile-representations-for-motion-control",
+          title: 'Whole-Body Tactile Representations for Motion Control',
+          description: "Benchmarking tactile representations for RL-based dynamic locomotion, deployed on an ANYmal-D quadruped with an FBG-based tactile skin. Semester project at the ETH Robotic Systems Lab (Spring 2026).",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/tactile_rl/";
             },},{id: "projects-visual-odometry",
           title: 'Visual Odometry',
           description: "Monocular visual odometry pipeline for real-time camera pose estimation, evaluated on KITTI.",
