@@ -410,6 +410,11 @@ ninja.data = [{
           description: "6-DoF object pose tracking from a single egocentric RGB video, generating simulation-ready trajectories for Isaac Sim. 3D Vision course project at ETH Zurich (Spring 2026).",
           section: "Projects",handler: () => {
               window.location.href = "/projects/real2sim_6dpose/";
+            },},{id: "projects-robotics-summer-school-autonomous-navigation",
+          title: 'Robotics Summer School — Autonomous Navigation',
+          description: "Long-range navigation with FAR Planner on a quadruped robot, as part of team &quot;38° of Freedom&quot; at the Robotics Summer School, ETH Zurich (2026).",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/robotics_summer_school/";
             },},{id: "projects-whole-body-tactile-representations-for-motion-control",
           title: 'Whole-Body Tactile Representations for Motion Control',
           description: "Benchmarking tactile representations for RL-based dynamic locomotion, deployed on an ANYmal-D quadruped with an FBG-based tactile skin. Semester project at the ETH Robotic Systems Lab (Spring 2026).",
