@@ -118,6 +118,19 @@ cv:
           - Developed code to automatically test JavaScript engines with Test262 test cases using Scala and check whether failing cases are covered by the Feature Sensitivity Coverage standard in Test262.
           - Gained experience with Rust, Scala, Java, and OCaml.
 
+    Teaching:
+      - company: ETH Zurich
+        position: Teaching Assistant — Planning and Decision Making for Robotics
+        location: Zurich, Switzerland
+        start_date: 2026-02
+        end_date: 2026-06
+
+      - company: ETH Zurich
+        position: Teaching Assistant — Linear System Theory
+        location: Zurich, Switzerland
+        start_date: 2025-09
+        end_date: 2026-01
+
     Projects:
       - name: Real-to-Sim 6-DoF Object Pose Estimation
         start_date: 2026
