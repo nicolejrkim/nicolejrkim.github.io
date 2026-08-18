@@ -28,7 +28,7 @@ latest_posts:
 
 I am an M.S. student in [Robotics, Systems, and Control](https://master-robotics.ethz.ch/) at ETH Zurich, working on legged locomotion, whole-body control, and reinforcement learning for quadruped and humanoid robots.
 
-I am currently conducting a semester project at the [Robotic Systems Lab](https://rsl.ethz.ch/) on whole-body tactile sensing for RL-based dynamic locomotion on the ANYmal quadruped, and working as a research assistant at the [Computational Robotics Lab](https://crl.ethz.ch/) on spatio-temporal motion retargeting and whole-body control for humanoids, combining sampling-based MPC (MPPI) with GPU-parallelized physics simulation.
+I am currently a research assistant at the [Computational Robotics Lab](https://crl.ethz.ch/), working on spatio-temporal motion retargeting and whole-body control for humanoids, combining sampling-based MPC (MPPI) with GPU-parallelized physics simulation. I also serve as a teaching assistant for Linear System Theory and Planning and Decision Making for Robotics. Recently, I completed a semester project at the [Robotic Systems Lab](https://rsl.ethz.ch/) on whole-body tactile sensing for RL-based dynamic locomotion on the ANYmal quadruped.
 
 Before ETH, I completed my B.S. in Computer Science & Electrical and Electronic Engineering at [KAIST](https://www.kaist.ac.kr/en/), graduating Summa Cum Laude. My research experience spans unsupervised skill discovery for diversifying quadruped gait patterns, hierarchical MCTS for task and motion planning, and program analysis for JavaScript engine bug detection.
 

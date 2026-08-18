@@ -74,7 +74,7 @@ cv:
         position: Semester Project
         location: Zurich, Switzerland
         start_date: 2026-03-09
-        end_date: present
+        end_date: 2026-08
         highlights:
           - Conducting semester project on whole-body tactile sensing for reinforcement learning-based dynamic locomotion on the ANYmal quadruped robot.
 
@@ -122,14 +122,14 @@ cv:
       - company: ETH Zurich
         position: Teaching Assistant — Planning and Decision Making for Robotics
         location: Zurich, Switzerland
-        start_date: 2026-02
-        end_date: 2026-06
+        start_date: 2026
+        end_date: present
 
       - company: ETH Zurich
         position: Teaching Assistant — Linear System Theory
         location: Zurich, Switzerland
-        start_date: 2025-09
-        end_date: 2026-01
+        start_date: 2026
+        end_date: present
 
     Projects:
       - name: Real-to-Sim 6-DoF Object Pose Estimation
