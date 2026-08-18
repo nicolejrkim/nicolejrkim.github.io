@@ -3,7 +3,7 @@ layout: page
 title: DCASE 2020 Task 2
 description: Unsupervised anomalous machine sound detection for condition monitoring.
 img: assets/img/projects/dcase_tsne_after.png
-importance: 4
+importance: 5
 category: work
 github: https://github.com/nicolejrkim/ee488_DCASE2020-Task2
 ---

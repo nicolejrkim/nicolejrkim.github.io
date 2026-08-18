@@ -3,7 +3,7 @@ layout: page
 title: Visual Odometry
 description: Monocular visual odometry pipeline for real-time camera pose estimation, evaluated on KITTI.
 img: assets/img/projects/vo_kitti_final.jpg
-importance: 3
+importance: 4
 category: work
 github: https://github.com/nicolejrkim/va25_project
 ---
