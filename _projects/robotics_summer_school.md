@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Robotics Summer School — Autonomous Navigation
-description: Long-range navigation with FAR Planner on a quadruped robot, as part of team "38° of Freedom" at the Robotics Summer School, ETH Zurich (2026).
+description: Winner of the robot competition at the 2026 ETH Robotics Summer School — long-range navigation with FAR Planner on a quadruped robot, as part of team "38° of Freedom".
 img: assets/img/projects/summerschool_far_thumb.jpg
 importance: 3
 category: work
 ---
 
-Team project at the **Robotics Summer School** at ETH Zurich (2026), as part of team *38° of Freedom*.
+Team project at the **Robotics Summer School** at ETH Zurich (2026), as part of team *38° of Freedom* — **winner of the robot competition** 🏆.
 
 Our team built an autonomous navigation stack for a quadruped robot: LiDAR-inertial state estimation (DLIO, later RESPLE for stable and accurate pose estimates), terrain analysis, and long-range path planning.
 
@@ -32,4 +32,13 @@ Our team built an autonomous navigation stack for a quadruped robot: LiDAR-inert
 </div>
 <div class="caption">
     One of the representative simulation scenarios used for planner tuning.
+</div>
+
+<div class="row justify-content-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/summerschool_winners.jpg" title="Team 38° of Freedom with winner certificates" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Team 38° of Freedom with our winner certificates from the 2026 ETH Robotics Summer School robot competition.
 </div>

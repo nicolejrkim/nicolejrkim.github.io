@@ -2,7 +2,7 @@
 layout: page
 title: Whole-Body Tactile Representations for Motion Control
 description: Benchmarking tactile representations for RL-based dynamic locomotion, deployed on an ANYmal-D quadruped with an FBG-based tactile skin. Semester project at the ETH Robotic Systems Lab (Spring 2026).
-img: assets/img/projects/tactilerl_dodge_frames.jpg
+img: assets/img/projects/tactilerl_taxel_filmstrip.jpg
 importance: 1
 category: work
 ---

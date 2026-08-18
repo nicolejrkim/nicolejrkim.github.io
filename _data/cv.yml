@@ -184,6 +184,11 @@ cv:
         keywords: "C++, C, C#, Python, Git, Linux"
 
     Awards:
+      - title: Winner, Robot Competition — ETH Robotics Summer School
+        date: 2026-06
+        awarder: ETH Zurich RobotX
+        summary: Won the robot competition at the 2026 ETH Robotics Summer School with team 38° of Freedom, building an autonomous navigation stack (state estimation, terrain analysis, and FAR Planner-based long-range planning) for a quadruped robot.
+
       - title: Korea Presidential Science Scholarship
         date: 2020-03-02
         awarder: Korea Student Aid Foundation
