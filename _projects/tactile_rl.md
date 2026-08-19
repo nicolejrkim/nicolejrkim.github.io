@@ -26,6 +26,15 @@ Learning-based controllers for legged robots perceive contact only indirectly, t
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/tactilerl_dodge_traces.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true muted=true loop=true %}
+</div>
+</div>
+<div class="caption">
+    Shank reaction traces while dodging a launched ball: TaxelKV (left) clears with the least impulse, FPB (middle) reacts later, and the proprioceptive baseline (right) takes multiple touches.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/tactilerl_taxel_filmstrip.jpg" title="Real-world experiment with TaxelKV observation" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -34,6 +43,15 @@ Learning-based controllers for legged robots perceive contact only indirectly, t
 </div>
 
 **On hardware**, the representations separate sharply. Deployed on an **ANYmal-D** quadruped carrying the FBG-based tactile skin, the proprioceptive policy ignores shoves altogether; FPB responds but inherits the CNN's localization error; TaxelKV, whose multi-cell activation stays closest to what the real sensor delivers, is robust to that single-point noise. The takeaway: closing the sim-to-real gap means modeling the representation on what the sensor delivers, not on the idealized quantities a simulator provides.
+
+<div class="row justify-content-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/tactilerl_deployment.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true muted=true loop=true %}
+    </div>
+</div>
+<div class="caption">
+    Deployment on the real ANYmal-D: the tactile policy running live during a shove test.
+</div>
 
 <div class="row justify-content-center">
     <div class="col-sm-8 mt-3 mt-md-0">
