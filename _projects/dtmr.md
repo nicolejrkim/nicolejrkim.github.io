@@ -2,7 +2,7 @@
 layout: page
 title: Dense Temporal Motion Retargeting for Legged Robots
 description: Retargets human motion to legged robots by jointly optimizing timing and control with sampling-based MPC, so each robot follows the motion at a timing its own dynamics can execute.
-img: assets/img/projects/dtmr_high_jump.gif
+img: assets/img/projects/dtmr_teaser.jpg
 importance: 0
 category: work
 year: 2026
