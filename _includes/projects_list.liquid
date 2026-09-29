@@ -31,6 +31,9 @@
         {% else %}
           <a href="{{ project.url | relative_url }}" class="btn btn-sm z-depth-0" role="button">Details</a>
         {% endif %}
+        {% if project.video %}
+          <a href="{{ project.video }}" class="btn btn-sm z-depth-0" role="button">Video</a>
+        {% endif %}
         {% if project.github %}
           <a href="{{ project.github }}" class="btn btn-sm z-depth-0" role="button">Code</a>
         {% endif %}
