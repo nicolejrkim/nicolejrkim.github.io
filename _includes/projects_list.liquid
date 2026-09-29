@@ -1,0 +1,45 @@
+<li>
+  <div class="row">
+    <div class="col col-sm-2 abbr">
+      {% if project.img %}
+        {%
+          include figure.liquid
+          loading="eager"
+          path=project.img
+          sizes="200px"
+          class="preview z-depth-1 rounded"
+          zoomable=true
+          avoid_scaling=true
+          alt=project.title
+        %}
+      {% endif %}
+    </div>
+    <div class="col-sm-8">
+      <div class="title">{{ project.title }}</div>
+      {% if project.authors %}
+        <div class="author">{{ project.authors }}</div>
+      {% endif %}
+      <div class="periodical">
+        {% if project.venue %}<em>{{ project.venue }}</em>, {% endif %}{{ project.year }}
+      </div>
+      <div class="links">
+        {% if project.description %}
+          <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+        {% endif %}
+        {% if project.redirect %}
+          <a href="{{ project.redirect }}" class="btn btn-sm z-depth-0" role="button">Website</a>
+        {% else %}
+          <a href="{{ project.url | relative_url }}" class="btn btn-sm z-depth-0" role="button">Details</a>
+        {% endif %}
+        {% if project.github %}
+          <a href="{{ project.github }}" class="btn btn-sm z-depth-0" role="button">Code</a>
+        {% endif %}
+      </div>
+      {% if project.description %}
+        <div class="abstract hidden">
+          <p>{{ project.description }}</p>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</li>

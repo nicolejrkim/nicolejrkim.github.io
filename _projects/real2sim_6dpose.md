@@ -5,6 +5,8 @@ description: 6-DoF object pose tracking from a single egocentric RGB video, gene
 img: assets/img/projects/real2sim_summary.png
 importance: 2
 category: work
+year: 2026
+venue: 3D Vision course project, ETH Zurich
 github: https://github.com/3dv-fs26-real2sim/RGBTrack-3DV-
 ---
 

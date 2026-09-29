@@ -5,6 +5,8 @@ description: Unsupervised anomalous machine sound detection for condition monito
 img: assets/img/projects/dcase_tsne_after.png
 importance: 5
 category: work
+year: 2025
+venue: Course project (EE488)
 github: https://github.com/nicolejrkim/ee488_DCASE2020-Task2
 ---
 

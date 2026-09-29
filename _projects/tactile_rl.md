@@ -5,6 +5,8 @@ description: Benchmarking tactile representations for RL-based dynamic locomotio
 img: assets/img/projects/tactilerl_taxel_filmstrip.jpg
 importance: 1
 category: work
+year: 2026
+venue: Semester project, ETH Robotic Systems Lab
 ---
 
 Semester project at the **ETH Robotic Systems Lab** (Spring 2026), supervised by Dr. Andrei Cramariuc and Dr. Robert Baines.

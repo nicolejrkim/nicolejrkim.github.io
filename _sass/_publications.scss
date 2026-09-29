@@ -186,3 +186,11 @@
 .citation-number {
   color: var(--global-theme-color);
 }
+
+// Projects page rendered in the publication-list style: uniform square thumbnails.
+.projects-list .preview,
+.projects-list .preview img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}

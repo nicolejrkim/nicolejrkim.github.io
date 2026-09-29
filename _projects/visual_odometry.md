@@ -5,6 +5,8 @@ description: Monocular visual odometry pipeline for real-time camera pose estima
 img: assets/img/projects/vo_kitti_final.jpg
 importance: 4
 category: work
+year: 2025
+venue: Course project
 github: https://github.com/nicolejrkim/va25_project
 ---
 

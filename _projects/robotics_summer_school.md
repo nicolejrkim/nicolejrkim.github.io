@@ -5,6 +5,8 @@ description: Winner of the robot competition at the 2026 ETH Robotics Summer Sch
 img: assets/img/projects/summerschool_far_thumb.jpg
 importance: 3
 category: work
+year: 2026
+venue: ETH Robotics Summer School, winner of the robot competition
 ---
 
 Team project at the **Robotics Summer School** at ETH Zurich (2026), as part of team *38° of Freedom* — **winner of the robot competition** 🏆.
