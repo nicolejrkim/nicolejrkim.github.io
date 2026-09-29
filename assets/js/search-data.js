@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "projects",
-          description: "A selection of my course and research projects.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -408,6 +408,11 @@ ninja.data = [{
           description: "Unsupervised anomalous machine sound detection for condition monitoring.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/dcase2020_task2/";
+            },},{id: "projects-dense-temporal-motion-retargeting-for-legged-robots",
+          title: 'Dense Temporal Motion Retargeting for Legged Robots',
+          description: "Retargets human motion to legged robots by jointly optimizing timing and control with sampling-based MPC, so each robot follows the motion at a timing its own dynamics can execute.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/dtmr/";
             },},{id: "projects-real-to-sim-6-dof-object-pose-estimation",
           title: 'Real-to-Sim 6-DoF Object Pose Estimation',
           description: "6-DoF object pose tracking from a single egocentric RGB video, generating simulation-ready trajectories for Isaac Sim. 3D Vision course project at ETH Zurich (Spring 2026).",
