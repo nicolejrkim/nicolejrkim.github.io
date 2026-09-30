@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an M.S. student in [Robotics, Systems, and Control](https://master-robotics.ethz.ch/) at ETH Zurich, working on legged locomotion, whole-body control, and reinforcement learning for quadruped and humanoid robots. I am currently starting my master's thesis on motion retargeting for humanoid loco-manipulation: transferring human demonstrations that involve interactions with objects and terrain onto humanoid robots, while preserving the contact relationships, to produce physically feasible reference motions for learning whole-body skills.
+I am an M.S. student in [Robotics, Systems, and Control](https://master-robotics.ethz.ch/) at ETH Zurich, working on legged locomotion, whole-body control, and reinforcement learning for quadruped and humanoid robots. I am currently starting my master's thesis on motion retargeting for humanoid loco-manipulation: transferring human demonstrations that involve interactions with objects and terrain onto humanoid robots.
 
 Previously, as a research assistant at the [Computational Robotics Lab](https://crl.ethz.ch/), I worked on dense temporal motion retargeting and whole-body control for humanoids, combining sampling-based MPC (MPPI) with GPU-parallelized physics simulation to generate kino-dynamically feasible motions from keypoint trajectories. I also completed a semester project at the [Robotic Systems Lab](https://rsl.ethz.ch/) on whole-body tactile sensing for RL-based dynamic locomotion on the ANYmal quadruped. Alongside my studies, I serve as a teaching assistant for Linear System Theory and Planning and Decision Making for Robotics.
 
