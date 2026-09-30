@@ -28,9 +28,7 @@ latest_posts:
 
 I am an M.S. student in [Robotics, Systems, and Control](https://master-robotics.ethz.ch/) at ETH Zurich, working on legged locomotion, whole-body control, and reinforcement learning for quadruped and humanoid robots. I am currently starting my master's thesis on motion retargeting for humanoid loco-manipulation: transferring human demonstrations that involve interactions with objects and terrain onto humanoid robots.
 
-Previously, as a research assistant at the [Computational Robotics Lab](https://crl.ethz.ch/), I worked on dense temporal motion retargeting and whole-body control for humanoids, combining sampling-based MPC (MPPI) with GPU-parallelized physics simulation to generate kino-dynamically feasible motions from keypoint trajectories. I also completed a semester project at the [Robotic Systems Lab](https://rsl.ethz.ch/) on whole-body tactile sensing for RL-based dynamic locomotion on the ANYmal quadruped. Alongside my studies, I serve as a teaching assistant for Linear System Theory and Planning and Decision Making for Robotics.
-
-My work spans **control of dynamic systems** (RL-based locomotion and whole-body control on quadrupeds and humanoids, sampling-based MPC), **planning** (hierarchical MCTS for task and motion planning, long-range navigation), and **3D vision** (visual odometry, 6-DoF object pose estimation). I have deployed learned controllers on real hardware including the ANYmal-D and Unitree Go2 quadrupeds.
+My work focuses on **control of dynamic systems**: RL-based locomotion and whole-body control on quadrupeds and humanoids, and sampling-based MPC. I have deployed learned controllers on real hardware including the ANYmal-D and Unitree Go2 quadrupeds and the Booster K1 humanoid.
 
 Before ETH, I completed my B.S. in Computer Science & Electrical and Electronic Engineering at [KAIST](https://www.kaist.ac.kr/en/), graduating Summa Cum Laude. My research experience there spans unsupervised skill discovery for diversifying quadruped gait patterns, hierarchical MCTS for task and motion planning, and program analysis for JavaScript engine bug detection.
 

@@ -26,7 +26,7 @@ cv:
           - Reinforcement learning and optimal control (deep RL, model predictive control, sampling-based MPC, MPPI)
           - Machine perception and computer vision (SLAM, vision-language-action models)
           - Physics-based simulation and deployment (MuJoCo, IsaacLab, ROS2, GPU-parallelized environments)
-          - Spatio-temporal motion retargeting and kino-dynamically feasible motion generation from keypoint trajectories
+          - Dense temporal motion retargeting and kino-dynamically feasible motion generation from keypoint trajectories
 
       - institution: Korea Advanced Institute of Science and Technology (KAIST)
         location: Daejeon, South Korea
@@ -70,6 +70,14 @@ cv:
           - Coursework in Game Theory
 
     Experience:
+      - company: ETH Computational Robotics Lab
+        position: Master's Thesis
+        location: Zurich, Switzerland
+        start_date: 2026-09
+        end_date: present
+        highlights:
+          - Motion retargeting for humanoid loco-manipulation, transferring human demonstrations that involve interactions with objects and terrain onto humanoid robots.
+
       - company: ETH Robotic Systems Lab
         position: Semester Project
         location: Zurich, Switzerland
@@ -82,10 +90,10 @@ cv:
         position: University Research Assistant
         location: Zurich, Switzerland
         start_date: 2025-09-15
-        end_date: present
+        end_date: 2026-08
         highlights:
-          - Research on spatio-temporal motion retargeting (STMR) and whole-body control for humanoids.
-          - Integrating sampling-based MPC and MPPI methods using GPU-parallelized physics simulation (MuJoCo) for kino-dynamically feasible motion generation from keypoint trajectories.
+          - Developed Dense Temporal Motion Retargeting (DTMR), which retargets human motion to legged robots by jointly optimizing timing and control with sampling-based MPC, so each robot follows the motion at a timing its own dynamics can execute (paper in submission).
+          - Integrated sampling-based MPC and MPPI methods using GPU-parallelized physics simulation (MuJoCo) for kino-dynamically feasible motion generation from keypoint trajectories.
 
       - company: ETH Computational Robotics Lab
         position: University Research Assistant
@@ -173,7 +181,7 @@ cv:
 
       - name: Robot Hardware
         icon: fa-solid fa-gears
-        keywords: "Unitree Go2, Unitree G1, ANYmal"
+        keywords: "Unitree Go2, Unitree G1, ANYmal, Booster K1"
 
       - name: Machine Learning & Computer Vision
         icon: fa-solid fa-eye
