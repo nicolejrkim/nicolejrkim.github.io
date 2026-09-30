@@ -28,7 +28,7 @@ latest_posts:
 
 I am an M.S. student in [Robotics, Systems, and Control](https://master-robotics.ethz.ch/) at ETH Zurich, working on legged locomotion, whole-body control, and reinforcement learning for quadruped and humanoid robots. I am currently starting my master's thesis on motion retargeting for humanoid loco-manipulation: transferring human demonstrations that involve interactions with objects and terrain onto humanoid robots.
 
-My research interest lies in **learning whole-body behaviors for humanoid and legged robots from human motion**, bridging the embodiment gap while preserving the semantic meaning of each motion. I dream of skills that transfer seamlessly to new, unseen hardware. I have deployed learned controllers on real hardware including the ANYmal-D and Unitree Go2 quadrupeds and the Booster K1 humanoid.
+My research interest lies in **learning whole-body behaviors for humanoid and legged robots from human motion**, bridging the embodiment gap while preserving the semantic meaning of each motion. I dream of skills that transfer seamlessly to new, unseen hardware. I have deployed learned controllers on real robots, including the ANYmal-D and Unitree Go2 quadrupeds and the Booster K1 humanoid.
 
 Before ETH, I completed my B.S. in Computer Science & Electrical and Electronic Engineering at [KAIST](https://www.kaist.ac.kr/en/), graduating Summa Cum Laude. My research experience there spans unsupervised skill discovery for diversifying quadruped gait patterns, hierarchical MCTS for task and motion planning, and program analysis for JavaScript engine bug detection.
 
