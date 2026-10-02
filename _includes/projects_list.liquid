@@ -26,6 +26,9 @@
         {% if project.description %}
           <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
         {% endif %}
+        {% if project.arxiv %}
+          <a href="https://arxiv.org/abs/{{ project.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+        {% endif %}
         {% if project.redirect %}
           <a href="{{ project.redirect }}" class="btn btn-sm z-depth-0" role="button">Website</a>
         {% else %}
