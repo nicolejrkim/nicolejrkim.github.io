@@ -642,3 +642,48 @@ hr {
   letter-spacing: 0.02em;
   box-shadow: none !important;
 }
+
+/* ---------- personal page: hobby cards ---------- */
+.fn-hobbies {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
+  gap: 18px;
+}
+
+.fn-hobby {
+  padding: 18px;
+  border-radius: 20px;
+  background: var(--fn-glass);
+  -webkit-backdrop-filter: blur(16px) saturate(170%);
+  backdrop-filter: blur(16px) saturate(170%);
+  box-shadow: var(--fn-glass-shadow);
+
+  h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 650;
+    letter-spacing: -0.01em;
+  }
+
+  p {
+    margin: 8px 0 0;
+    font-size: 15.5px;
+    line-height: 1.6;
+    color: var(--fn-ink-2);
+  }
+}
+
+.fn-hobby-media {
+  margin: -6px -6px 16px;
+  aspect-ratio: 4 / 3;
+  border-radius: 14px;
+  overflow: hidden;
+  background: var(--fn-media-bg);
+  box-shadow: var(--fn-media-shadow);
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
