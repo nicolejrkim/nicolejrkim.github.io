@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-personal",
-          title: "personal",
-          description: "Things I enjoy outside of research.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/personal/";
-          },
         },{id: "nav-cv",
           title: "CV",
           description: "M.S. student in Robotics, Systems, and Control at ETH Zurich. A PDF version is available via the button below.",
