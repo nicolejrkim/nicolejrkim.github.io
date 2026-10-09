@@ -2,7 +2,20 @@
 layout: about
 title: about
 permalink: /
-subtitle: M.S. student in Robotics, Systems, and Control at <a href='https://ethz.ch/'>ETH Zurich</a>
+subtitle: M.S. student in Robotics, Systems, and Control at <a href='https://ethz.ch/'>ETH Zurich</a>.
+eyebrow: Legged robots · Whole-body control · RL
+hero_links:
+  - label: Projects
+    url: /projects/
+    solid: true
+  - label: CV
+    url: /cv/
+  - label: Email
+    url: mailto:jaerkim@student.ethz.ch
+  - label: GitHub
+    url: https://github.com/nicolejrkim
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/jaeryeong-kim/
 
 profile:
   align: right
@@ -12,6 +25,7 @@ profile:
     <p>ETH Zurich</p>
     <p>Zurich, Switzerland</p>
 
+featured_projects: 3 # shows the top N projects as cards on the home page
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 

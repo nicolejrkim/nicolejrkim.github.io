@@ -37,3 +37,6 @@
 @use "font-awesome/brands";
 @use "font-awesome/solid";
 @use "font-awesome/regular";
+
+// Site-wide dark restyle (loaded last to override the base theme)
+@use "fieldnotes";

@@ -1,49 +1,63 @@
 ---
 layout: default
 ---
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
-
-  <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
-          {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
+<div class="post fn-home">
+  <header class="fn-hero">
+    <div class="fn-hero-copy">
+      {% if page.eyebrow %}<p class="fn-mono fn-eyebrow">{{ page.eyebrow }}</p>{% endif %}
+      <h1 class="fn-hero-title">
+        {% if site.title == 'blank' %}
+          {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}
+        {% else %}
+          {{ site.title }}
         {% endif %}
+      </h1>
+      <p class="fn-lede">{{ page.subtitle }}</p>
+      {% if page.hero_links %}
+        <div class="fn-links">
+          {% for l in page.hero_links %}
+            <a class="fn-btn{% if l.solid %} solid{% endif %}" href="{{ l.url | relative_url }}">{{ l.label }}</a>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+    {% if page.profile and page.profile.image %}
+      <div class="fn-portrait">
+        {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+        {%
+          include figure.liquid loading="eager" path=profile_image_path class="img-fluid" sizes="(min-width: 768px) 320px, 70vw" alt=page.profile.image
+          cache_bust=true
+        %}
         {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
+          <div class="fn-mono fn-telemetry">{{ page.profile.more_info }}</div>
         {% endif %}
       </div>
     {% endif %}
+  </header>
 
+  <article>
     <div class="clearfix">{{ content }}</div>
+
+    <!-- Featured projects -->
+    {% if page.featured_projects %}
+      <div class="fn-section-head">
+        <h2 class="fn-section-title">Projects</h2>
+        <a class="fn-btn" href="{{ '/projects/' | relative_url }}">All projects →</a>
+      </div>
+      <div class="publications projects-list">
+        <ol class="bibliography">
+          {% assign sorted_projects = site.projects | sort: 'importance' %}
+          {% for project in sorted_projects limit: page.featured_projects %}
+            {% include projects_list.liquid %}
+          {% endfor %}
+        </ol>
+      </div>
+    {% endif %}
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+      <h2 class="fn-section-title">
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
