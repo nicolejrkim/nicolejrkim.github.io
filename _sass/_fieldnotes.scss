@@ -264,6 +264,27 @@ h4 {
   white-space: nowrap;
 }
 
+/* "All Projects" back button at the top of each project page */
+.fn-back-btn {
+  margin-top: 1.5rem;
+  min-height: 36px;
+  padding: 0.4em 1em 0.4em 0.9em;
+  font-size: 14px;
+
+  i {
+    font-size: 0.85em;
+    transition: transform 0.2s ease;
+  }
+
+  &:hover i {
+    transform: translateX(-3px);
+  }
+}
+
+.fn-back-btn + .post-header {
+  margin-top: 1rem;
+}
+
 .publications .links .btn,
 .projects-list .links .btn {
   margin: 0 6px 6px 0;
